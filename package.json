@@ -4,7 +4,8 @@
   "description": "Technical Documentation Page for Free Code Camp Responsive Web Design Certificate",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
   },
   "author": "David Leslie",
   "license": "MIT",

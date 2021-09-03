@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav-link {
+    @apply block px-2 py-8;
+  }
+
+  .nav-list-item {
+    @apply border-t hover:bg-gray-200;
+  }
+}
