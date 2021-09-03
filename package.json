@@ -1,0 +1,14 @@
+{
+  "name": "techdoc",
+  "version": "1.0.0",
+  "description": "Technical Documentation Page for Free Code Camp Responsive Web Design Certificate",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "David Leslie",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.2.9"
+  }
+}
