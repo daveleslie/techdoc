@@ -23,33 +23,222 @@
     </ul>
   </nav>
 
-  <main id="main-doc" class="absolute ml-80 p-2">
-    <header class="m-2 text-xl text-left font-semibold">
-      <h1>Main Document</h1>
-    </header>
+  <header class="left-0 right-0 ml-72 py-2 text-center font-semibold text-xl fixed border-b bg-white z-666">
+    <div class="bg-white">
+      <h1 class="">Technical Documentation Page</h1>
+    </div>
+    
+  </header>
 
-    <section class="main-section">
-      <header>Introduction</header>
+  <main id="main-doc" class="pt-10 ml-80">
+    
+    
+    <section id="introduction" class="main-section offset">
+      <header class="section-header">Introduction</header>
+      <p class="my-2">This documentation pertains to administrative functionality for a web-based smart metering platform.</p>
+      <p class="my-2">It is written for service admins to assist with basic core functions.</p>
+      <p class="my-2">
+        <ol>
+          <li>Account Managers</li>
+          <li>Operations Managers</li>
+          <li>Data analysts</li>
+          <li>Store managers</li>
+          <li>Divisional managers</li>
+        </ol>
+      </p>
+      <p class="my-2">
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti 
+        atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique 
+        sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum 
+        facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+        impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
+        sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus 
+        maiores alias consequatur aut perferendis doloribus asperiores repellat.
+      </p>
+      <div>
+        <h4 class="italic font-medium">Example Codeblock:</h4>
+        <pre class="border bg-gray-100">
+          <code>function resolveAfter2Seconds(x) {
+              return new Promise(resolve => {
+                setTimeout(() => {
+                  resolve(x);
+                }, 2000);
+              });
+            }
+          
+            async function f1() {
+              var x = await resolveAfter2Seconds(10);
+              console.log(x); // 10
+            }
+            
+            f1();</code>
+        </pre>
+      </div>
+      
     </section>
 
-    <section class="main-section">
-      <header>Adding new clients</header>
+    <section id="Adding_new_clients" class="main-section offset">
+      <header class="section-header">Adding new clients</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti 
+        atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique 
+        sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum 
+        facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+        impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
+        sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus 
+        maiores alias consequatur aut perferendis doloribus asperiores repellat.
+      </p>
     </section>
     
-    <section class="main-section">
-      <header>Adding new meters</header>
+    <section id="Adding_new_meters" class="main-section offset">
+      <header class="section-header">Adding new meters</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti 
+        atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique 
+        sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum 
+        facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+        impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
+        sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus 
+        maiores alias consequatur aut perferendis doloribus asperiores repellat.
+      </p>
+      <div>
+        <h4 class="italic font-medium">Example Codeblock:</h4>
+        <pre class="border bg-gray-100">
+          <code>function resolveAfter2Seconds(x) {
+              return new Promise(resolve => {
+                setTimeout(() => {
+                  resolve(x);
+                }, 2000);
+              });
+            }
+          
+            async function f1() {
+              var x = await resolveAfter2Seconds(10);
+              console.log(x); // 10
+            }
+            
+            f1();</code>
+        </pre>
+      </div>
     </section>
     
-    <section class="main-section">
-      <header>Deleting meters</header>
+    <section id="Deleting_meters" class="main-section offset">
+      <header class="section-header">Deleting meters</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <div>
+        <h4 class="italic font-medium">Example Codeblock:</h4>
+        <pre class="border bg-gray-100">
+          <code>function resolveAfter2Seconds(x) {
+              return new Promise(resolve => {
+                setTimeout(() => {
+                  resolve(x);
+                }, 2000);
+              });
+            }
+          
+            async function f1() {
+              var x = await resolveAfter2Seconds(10);
+              console.log(x); // 10
+            }
+            
+            f1();</code>
+        </pre>
+      </div>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti 
+        atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique 
+        sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum 
+        facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+        impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
+        sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus 
+        maiores alias consequatur aut perferendis doloribus asperiores repellat.
+      </p>
     </section>
     
-    <section class="main-section">
-      <header>Relocating meters</header>
+    <section id="Relocating_meters" class="main-section offset">
+      <header class="section-header">Relocating meters</header>
+      <div>
+        <h4 class="italic font-medium">Example Codeblock:</h4>
+        <pre class="border bg-gray-100">
+          <code>function resolveAfter2Seconds(x) {
+              return new Promise(resolve => {
+                setTimeout(() => {
+                  resolve(x);
+                }, 2000);
+              });
+            }
+          
+            async function f1() {
+              var x = await resolveAfter2Seconds(10);
+              console.log(x); // 10
+            }
+            
+            f1();</code>
+        </pre>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti 
+        atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique 
+        sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum 
+        facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+        impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
+        sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus 
+        maiores alias consequatur aut perferendis doloribus asperiores repellat.
+      </p>
     </section>
     
-    <section class="main-section">
-      <header>Updating site info</header>
+    <section id="Updating_site_info" class="main-section offset">
+      <header class="section-header">Updating site info</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <div>
+        <h4 class="italic font-medium">Example Codeblock:</h4>
+        <pre class="border bg-gray-100">
+          <code>async function f3() {
+            var y = await 20;
+            console.log(y); // 20
+          }
+          
+          f3();</code>
+        </pre>
+      </div>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti 
+        atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique 
+        sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum 
+        facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+        impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
+        sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus 
+        maiores alias consequatur aut perferendis doloribus asperiores repellat.
+      </p>
     </section>
   
   </main>
